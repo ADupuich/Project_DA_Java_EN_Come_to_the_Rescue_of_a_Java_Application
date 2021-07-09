@@ -7,7 +7,6 @@ import java.util.Map;
  * The value of each one is the sum of iteration. We should'nt see duplicates of
  * keys.
  * 
- * @param symptomsCount is the result return by SymptomsCount class
  */
 public interface IFileWriter {
 
