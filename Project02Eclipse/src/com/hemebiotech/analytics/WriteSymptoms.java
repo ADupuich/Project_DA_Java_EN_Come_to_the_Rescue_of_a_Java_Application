@@ -14,7 +14,7 @@ public class WriteSymptoms implements IFileWriter {
 			/**
 			 * In order to have the result in file we create writer with class Filewriter
 			 */
-			FileWriter writer = new FileWriter("result.txt");
+			FileWriter writer = new FileWriter("results.out");
 			for (String line : symptomsCount.keySet()) {
 				writer.write(line + " : " + symptomsCount.get(line) + "\n");
 			}
